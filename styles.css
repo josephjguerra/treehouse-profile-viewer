@@ -1,0 +1,50 @@
+body {
+  font-family: monospace;
+}
+
+#container, input {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+#avatar {
+  border-radius: 6px;
+  width: 200px;
+}
+
+.badge-img {
+  width: 100px;
+}
+
+#badges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.badge {
+  width: 25%;
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .badge {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .badge {
+    width: 50%;
+  }
+}
